@@ -17,6 +17,7 @@ extra:
 nav:
   - Overview:
     - Introduction: index.md
+    - Architecture: architecture.md
     - First Steps: first-steps.md
     - Examples:
         - Overview: examples/index.md

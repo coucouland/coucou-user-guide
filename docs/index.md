@@ -18,7 +18,7 @@ or via automation rules to maintain a healthy schedule. You can also use queries
 from your calendars to gain clarity and insights from an often busy schedule.
 
 
-## Task Tracker
+## Work Tracker
 
 Tasks and workflows are often managed via different tools depending on the context. For example, you
 may use something like JIRA for work and project management, but at home you might use something like
@@ -47,6 +47,6 @@ lifecycle of artefacts that may also be shared with collaborators.
 
 TBD.
 
-## Entity Management
+## Asset Management
 
 TBD.

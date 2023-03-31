@@ -6,4 +6,3 @@ with other calendar users.
 
 Coucou includes a tracker for task management, resource and availability management features,
 journaling, and powerful template and query tooling for managing your data.
-

@@ -1,0 +1,19 @@
+site_name: Coucou! Let's collaborate.
+site_url: https://www.coucoucal.org
+theme:
+  name: material
+  favicon: images/favicon.png
+  logo: images/logo-48.png
+repo_url: https://github.com/coucouland/coucou-user-guide
+repo_name: micronode/coucou
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/coucouland
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/benfortuna
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/micronode
+nav:
+  - Overview:
+    - Introduction: index.md

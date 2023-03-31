@@ -1,0 +1,1 @@
+Collections provide a way to group together similar calendar and resource data.

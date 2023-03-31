@@ -24,6 +24,10 @@ nav:
         - Scheduling: examples/schedule.md
   - Concepts:
     - Templates: templates.md
+    - Collections: collections.md
+    - Queries: queries.md
+    - Connectors: connectors.md
+    - Integration: integration.md
   - Scheduling: schedule.md
   - Tracker: tracker.md
   - Availability: availability.md

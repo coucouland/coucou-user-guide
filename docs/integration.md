@@ -3,4 +3,4 @@ The integrations build-in to the Coucou application include:
 
 * Email Transport (SMTP/IMAP)
 * AWS Cloud-native Tooling (e.g. SQS, SNS, EventBridge, etc.)
-* Direct Integration (with another Coucou instance via HTTP webhooks)
+* Direct Integration (via HTTP webhooks)

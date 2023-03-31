@@ -22,8 +22,10 @@ nav:
     - Examples:
         - Overview: examples/index.md
         - Scheduling: examples/schedule.md
+  - Concepts:
+    - Templates: templates.md
   - Scheduling: schedule.md
   - Tracker: tracker.md
   - Availability: availability.md
   - Journaling: journal.md
-  - Entity Management: entity.md
+  - Assets: assets.md

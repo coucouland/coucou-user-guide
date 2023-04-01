@@ -4,6 +4,9 @@ theme:
   name: material
   favicon: images/favicon.png
   logo: images/logo-48.png
+  features:
+    - content.code.copy
+
 repo_url: https://github.com/coucouland/coucou-user-guide
 repo_name: micronode/coucou
 extra:

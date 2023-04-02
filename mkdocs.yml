@@ -20,7 +20,8 @@ extra:
 nav:
   - Overview:
     - Introduction: index.md
-    - Architecture: architecture.md
+    - Features: features.md
+    - Design: design.md
     - First Steps: first-steps.md
     - Examples:
         - Overview: examples/index.md

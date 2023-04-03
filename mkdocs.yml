@@ -1,5 +1,5 @@
 site_name: Coucou! Let's collaborate.
-site_url: https://www.coucoucal.org
+site_url: https://www.coucal.org
 theme:
   name: material
   favicon: images/favicon.png
@@ -8,7 +8,7 @@ theme:
     - content.code.copy
 
 repo_url: https://github.com/coucouland/coucou-user-guide
-repo_name: micronode/coucou
+repo_name: coucouland/coucal
 extra:
   social:
     - icon: fontawesome/brands/github

@@ -1,2 +1,2 @@
-# coucou-user-guide
-Coucou user documentation
+# coucal-user-guide
+Coucal user documentation

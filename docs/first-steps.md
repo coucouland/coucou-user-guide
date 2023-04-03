@@ -1,12 +1,12 @@
 # Help Documentation
 
-When you first install Coucou a good way to familiarize yourself with the commands is via the help
+When you first install Coucal a good way to familiarize yourself with the commands is via the help
 documentation:
 
-    $ coucou -help
+    $ coucal -help
 
 ```
-Usage: coucou [-hV] [COMMAND]
+Usage: coucal [-hV] [COMMAND]
 Coucou! Let's collaborate.
   -h, --help      Show this help message and exit.
   -V, --version   Print version information and exit.
@@ -28,10 +28,10 @@ Commands:
 
 Each of the subcommands also provide contextual help documentation:
 
-    $ coucou schedule -help
+    $ coucal schedule -help
 
 ```
-Usage: coucou schedule [-hV] [COMMAND]
+Usage: coucal schedule [-hV] [COMMAND]
 Manage scheduled event data
   -h, --help      Show this help message and exit.
   -V, --version   Print version information and exit.

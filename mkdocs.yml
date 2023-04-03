@@ -7,7 +7,7 @@ theme:
   features:
     - content.code.copy
 
-repo_url: https://github.com/coucouland/coucou-user-guide
+repo_url: https://github.com/coucouland/coucal-user-guide
 repo_name: coucouland/coucal
 extra:
   social:

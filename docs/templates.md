@@ -1,5 +1,5 @@
 Templates are partially pre-filled calendar and resource data that make it easier to create new
-data in a consistent way. Coucou includes some built-in templates that are used to define the many
+data in a consistent way. Coucal includes some built-in templates that are used to define the many
 creation options under each subcommand.
 
 For example, templates included with the schedule subcommand include:

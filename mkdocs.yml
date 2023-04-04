@@ -37,3 +37,5 @@ nav:
   - Availability: availability.md
   - Journaling: journal.md
   - Assets: assets.md
+  - Entities: entities.md
+  - Attachments: attachments.md

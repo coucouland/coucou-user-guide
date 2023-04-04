@@ -26,7 +26,19 @@ resource data. The benefits of this connector include:
 
 ## Enable a Connector instance
 
-TBD.
+Each connector instance is associated with a virtual path. For example the default connector using
+local storage is configured with the following path:
+
+    /local
+
+To create a new local storage instance you would need to use a different path:
+
+    coucal connector local /sandbox
+
+If a connector does not yet have any instances you can omit the path to use the default path:
+
+    coucal connector dav -host=dav.example.com # will use the default path of /dav
+
 
 ## Disable a Connector instance
 

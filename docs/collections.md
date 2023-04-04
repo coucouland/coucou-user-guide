@@ -2,7 +2,7 @@ Collections provide a way to group together similar calendar and resource data.
 
 ## Overview
 
-Each configured Connector contains one or more collections for managing user data. For each Connector
+Each configured Connector contains one or more collections for managing user data. For each collection type
 there is a default collection that is used for commands where no collection is specified. The default
 collection can be changed via the `set-default` sub-command of the Collection feature.
 
@@ -28,9 +28,33 @@ attachments.
 
 ## Create a Collection
 
-TBD.
+Each collection is associated with a Connector and is accessed as an extension of the Connector
+virtual path. For example, the default collections included by default are found in the local storage
+Connector under path `/local`:
+
+    /local/calendars
+    /local/cards
+    /local/attachments
+
+To add a new collection you can specify a full path for an existing connector:
+
+    coucal collection new /local/team-pheasant -type=schedule
+
+The type indicates what subset of calendar, card or attachment data is supported. Type options include:
+
+* schedule
+* tracker
+* availability
+* journal
+* asset
+* entity
+* attachment
+
 
 ## Set the default Collection
 
-TBD.
+The default collection is used to support commands where no collection is specified. For example, if
+we want to perform many operations on a collection we can simplify this using the default collection:
 
+    coucal collection default /local/team-pheasant # set as default for supported collection types
+    coucal schedule meeting <..> # will be created in collection /local/team-pheasant if no collection is specified

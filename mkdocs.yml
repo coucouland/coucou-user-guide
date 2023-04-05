@@ -26,6 +26,7 @@ nav:
     - Examples:
         - Overview: examples/index.md
         - Scheduling: examples/schedule.md
+        - Integration Channels: examples/channel.md
   - Concepts:
     - Templates: templates.md
     - Collections: collections.md

@@ -38,7 +38,7 @@ Connector under path `/local`:
 
 To add a new collection you can specify a full path for an existing connector:
 
-    coucal collection new /local/team-pheasant -type=schedule
+    coucal collection new /local/household/cleaning -type=schedule
 
 The type indicates what subset of calendar, card or attachment data is supported. Type options include:
 
@@ -58,3 +58,36 @@ we want to perform many operations on a collection we can simplify this using th
 
     coucal collection default /local/team-pheasant # set as default for supported collection types
     coucal schedule meeting <..> # will be created in collection /local/team-pheasant if no collection is specified
+
+## Domains
+
+Domains are a proposed way of organizing your collections, in order to partition data into separate
+contexts. Note that the following domains are suggestions only, and you are encouraged to develop your
+own.
+
+### Household
+
+A household domain, relating to household activities, might include the following subdomains:
+
+* Cleaning - routine cleaning of household areas
+* Cooking - preparing meals
+* Gardening - maintaining outdoor areas
+* Maintenance - general repairs and upkeep
+
+Each subdomain could be represented by separate collections for storing assets, reminders, tasks, etc.
+
+* /local/house/cleaning/calendars
+* /local/house/cleaning/cards
+* /local/house/cleaning/attachments
+* ...
+
+You can use these subdomains to start tracking your assets:
+
+    coucal journal tool -summary='Lawn Mower' -attach=@warranty.pdf /local/house/gardening/cards
+    Created journal: 1234-abcd-9887
+
+And related reminders:
+
+    coucal schedule reminder -summary='Sharpen lawn mower blades' -use-template=annual-reminder \
+        -related=1234-abcd-9887 /local/house/gardening/calendars
+

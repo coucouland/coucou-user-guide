@@ -91,3 +91,20 @@ And related reminders:
     coucal schedule reminder -summary='Sharpen lawn mower blades' -use-template=annual-reminder \
         -related=1234-abcd-9887 /local/house/gardening/calendars
 
+### Workplace
+
+A workplace domain (depending on the nature of work), could include subdomains like this:
+
+* Finance - internal budgeting and costing
+* Operations - regular support activities
+* Projects - funded enhancements/changes to processes or services
+
+Within a team the domain hierarchy could look like this:
+
+* /local/acme/project-one/finance/calendars
+* /local/acme/project-one/finance/attachments
+* /local/acme/project-one/work/calendars
+* /local/acme/bau/finance/calendars
+* /local/acme/bau/operations/calendars
+
+You can see how easily domains can be subdivided making it easier to manage the pressures of data overload.

@@ -31,7 +31,7 @@ nav:
     - Collections: collections.md
     - Queries: queries.md
     - Connectors: connectors.md
-    - Integration: integration.md
+    - Channels: channels.md
   - Scheduling: schedule.md
   - Tracker: tracker.md
   - Availability: availability.md

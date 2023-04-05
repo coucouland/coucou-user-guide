@@ -6,10 +6,11 @@ with other calendar users.
 
 Coucal includes a tracker for task management, resource and availability management features,
 journaling, and powerful template and query tooling for managing your data.
+       
 
 # Where's the UI?
 
-Coucal is being developed as an API-first command-driven application for managing calendaring and
+Coucal is an API-first command-driven application for managing calendaring and
 scheduling information. 
 
 We believe the most powerful tools are those that provide APIs or command line interfaces, allowing

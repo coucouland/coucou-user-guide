@@ -20,6 +20,10 @@ extra:
 nav:
   - Overview:
     - Introduction: index.md
+    - Workspace: workspace.md
+    - Repository: repository.md
+    - Channel: channel.md
+    - Subscription: subscription.md
 #    - Features: features.md
 #    - Design: design.md
 #    - First Steps: first-steps.md

@@ -5,18 +5,20 @@ journaling workflows provides a powerful foundation for collaborative applicatio
 
 ## Overview
 
-Conceptually, Coucal is based on four primary constructs: Workspace, Repository, Channel, and Subscription.
+Conceptually, Coucal is based on four primary constructs: [**Workspace**](workspace.md),
+[**Repository**](repository.md), [**Channel**](channel.md), and [**Subscription**](subscription.md).
 
-A [**Workspace**](workspace.md) provides a clear delineation of user-generated content. A Workspace may be associated with an individual
+![Conceptual Model](images/conceptual.mmd.svg)
+
+A Workspace provides a clear delineation of user-generated content. A Workspace may be associated with an individual
 user, or a team, and represents a collaborative space for content management.
 
-A [**Repository**](repository.md) is concerned with persistence of user-generated content, and is exclusively associated with a single
+A Repository is concerned with persistence of user-generated content, and is exclusively associated with a single
 Workspace. A Workspace, however, may interact with one or more Repositories.
 
-A [**Channel**](channel.md) supports the flow of content into and out of a Workspace. A Channel must be associated with a single
+A Channel supports the flow of content into and out of a Workspace. A Channel must be associated with a single
 Workspace, but a Workspace may have more than one Channel.
 
-A [**Subscription**](subscription.md) represents a connection between a Channel and an external subscriber. A subscriber represents a
+A Subscription represents a connection between a Channel and an external subscriber. A subscriber represents a
 consumer of content that may exist outside the boundaries of the Coucal platform. Zero or more Subscriptions may
 be associated with each Channel.
-

@@ -1,0 +1,29 @@
+erDiagram
+    WORKSPACE 1 to 1+ REPOSITORY: contains
+    WORKSPACE 1 to 1+ CHANNEL: contains
+    WORKSPACE {
+        string name
+    }
+    REPOSITORY
+    CHANNEL 1 to 0+ SUBSCRIPTION: has
+    CHANNEL 1 to 0+ INVITATION: has
+    SUBSCRIPTION
+    SUBSCRIPTION {
+        string[] subscribers
+        string filter
+    }
+    INVITATION
+    INVITATION {
+        string[] recipients
+        date expiresOn
+    }
+    USER one or zero to 1 WORKSPACE: has
+    USER {
+        string email
+        string name
+    }
+    TEAM one or zero to 1+ WORKSPACE: has
+    TEAM one or zero to 1+ USER: contains
+    TEAM {
+        string name
+    }

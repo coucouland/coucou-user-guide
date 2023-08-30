@@ -9,8 +9,13 @@ A Subscription SHOULD support the follow features:
 * Define one or more recipient addresses for published content.
 * Define rules to match published content that will trigger delivery to recipients.
 
+A Subscription cannot be used to arbitrarily add eternal subscribers without their consent. External subscribers
+may only be added via an Invitation process flow.
+
 ## Invitation
 
 To provide temporary access to subscribe to otherwise private channels, an Invitation may be
 sent to one or more recipients. An Invitation allows access to a Channel for designated recipients
 until the specified expiry date.
+
+Invitations may also be sent for public Channels, when you want to include external subscrbers.

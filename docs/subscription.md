@@ -18,4 +18,4 @@ To provide temporary access to subscribe to otherwise private channels, an Invit
 sent to one or more recipients. An Invitation allows access to a Channel for designated recipients
 until the specified expiry date.
 
-Invitations may also be sent for public Channels, when you want to include external subscrbers.
+Invitations may also be sent for public Channels, when you want to include external subscribers.

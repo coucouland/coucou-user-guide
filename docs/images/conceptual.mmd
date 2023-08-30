@@ -4,9 +4,15 @@ erDiagram
     WORKSPACE {
         string name
     }
-    REPOSITORY
+    REPOSITORY {
+        string type
+    }
+    CHANNEL 0+ to 0+ REPOSITORY: notifies
     CHANNEL 1 to 0+ SUBSCRIPTION: has
     CHANNEL 1 to 0+ INVITATION: has
+    CHANNEL {
+        string type
+    }
     SUBSCRIPTION
     SUBSCRIPTION {
         string[] subscribers
@@ -22,7 +28,7 @@ erDiagram
         string email
         string name
     }
-    TEAM one or zero to 1+ WORKSPACE: has
+    TEAM one or zero to 1 WORKSPACE: has
     TEAM one or zero to 1+ USER: contains
     TEAM {
         string name

@@ -11,3 +11,12 @@ A Channel SHOULD support the following features:
 * Deliver content to subscribers asynchronously, or continue to attempt delivery according to configured parameters.
 * Support different subscription types to allow delivery based on explicit content subscription and contextual (i.e. collection) subscriptions.
 * Ability to consume content published via external sources, such that it may be delivered to appropriate Repository collections based on contextual information.
+
+## Egress
+
+An Egress Channel supports delivery of content updates to Subscribers. A Channel may be configured to deliver content
+from multiple Repositories.  
+
+## Ingress
+
+An Ingress Channel supports consuming content updates from external sources.

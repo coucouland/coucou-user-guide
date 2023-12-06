@@ -1,8 +1,8 @@
 # Coucal API - Workspaces
 
 Coucal Workspaces provide isolated collaborative environments for maintaining a collection of content
-Repositories. By default, each authenticated user is provided with a default Workspace for Repository management,
-and this API allows users to create and maintain additional Workspaces.
+Repositories, Channels and Subscriptions. By default, each authenticated user is provided with a default Workspace
+for content management, and this API allows users to create and maintain additional Workspaces.
 
 #### Creation
 
@@ -11,3 +11,16 @@ and this API allows users to create and maintain additional Workspaces.
         "name": "My New Workspace"
     }
 
+
+#### Retrieval
+
+    GET https://api.coucal.net/workspaces             # list all workspaces
+
+
+#### Update
+
+TBD.
+
+#### Deletion
+
+TBD.

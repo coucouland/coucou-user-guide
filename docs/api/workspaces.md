@@ -12,9 +12,17 @@ for content management, and this API allows users to create and maintain additio
     }
 
 
+    POST https://api.coucal.net/v1/workspaces/1/members             # add a member to workspace with id=1
+    {
+        "uri": "mailto:francis@example.com"
+    }
+
+
 #### Retrieval
 
     GET https://api.coucal.net/v1/workspaces             # list all workspaces
+
+    GET https://api.coucal.net/v1/workspaces/1/members             # list all members of workspaces with id=1
 
 
 #### Update

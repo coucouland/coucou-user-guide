@@ -30,6 +30,8 @@ nav:
     - Workspaces: api/workspaces.md
     - Channels: api/channels.md
     - Subscriptions: api/subscriptions.md
+    - Filters: api/filters.md
+    - Templates: api/templates.md
 #    - Features: features.md
 #    - Design: design.md
 #    - First Steps: first-steps.md

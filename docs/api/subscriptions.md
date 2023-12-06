@@ -5,7 +5,7 @@ this functionality allows anyone to track content without being explicitly inclu
 
 #### Creation
 
-    POST https://api.coucal.net/subscriptions             # create a new subscription
+    POST https://api.coucal.net/v1/subscriptions             # create a new subscription
     {
         "name": "Watch 1234",
         "sourceUid": "1234",
@@ -14,7 +14,7 @@ this functionality allows anyone to track content without being explicitly inclu
 
 #### Retrieval
 
-    GET https://api.coucal.net/subscriptions             # list all subscriptions
+    GET https://api.coucal.net/v1/subscriptions             # list all subscriptions
 
 
 #### Update

@@ -5,7 +5,7 @@ content may be shared via other integrations such as Email and other productivit
 
 #### Creation
 
-    POST https://api.coucal.net/channels             # create a new channel
+    POST https://api.coucal.net/v1/channels             # create a new channel
     {
         "name": "SMTP Channel",
         "type": "smtp",
@@ -15,7 +15,7 @@ content may be shared via other integrations such as Email and other productivit
 
 #### Retrieval
 
-    GET https://api.coucal.net/channels             # list all channels
+    GET https://api.coucal.net/v1/channels             # list all channels
 
 
 #### Update

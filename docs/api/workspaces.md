@@ -6,7 +6,7 @@ for content management, and this API allows users to create and maintain additio
 
 #### Creation
 
-    POST https://api.coucal.net/workspaces             # create a new workspace
+    POST https://api.coucal.net/v1/workspaces             # create a new workspace
     {
         "name": "My New Workspace"
     }
@@ -14,7 +14,7 @@ for content management, and this API allows users to create and maintain additio
 
 #### Retrieval
 
-    GET https://api.coucal.net/workspaces             # list all workspaces
+    GET https://api.coucal.net/v1/workspaces             # list all workspaces
 
 
 #### Update

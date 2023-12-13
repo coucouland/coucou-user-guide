@@ -32,7 +32,7 @@ nav:
       - Actions: api/repositories/actions.md
       - Issues: api/repositories/issues.md
       - Requests: api/repositories/requests.md
-      - Records: api/repositories/records.md
+      - Notes: api/repositories/notes.md
       - Metrics: api/repositories/metrics.md
       - Availability: api/repositories/availability.md
       - Entities: api/repositories/entities.md

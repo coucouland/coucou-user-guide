@@ -26,7 +26,16 @@ nav:
     - Subscription: subscription.md
   - API:
     - Overview: api/index.md
-    - Repositories: api/repositories.md
+    - Repositories:
+      - Overview: api/repositories/index.md
+      - Events: api/repositories/events.md
+      - Actions: api/repositories/actions.md
+      - Issues: api/repositories/issues.md
+      - Requests: api/repositories/requests.md
+      - Records: api/repositories/records.md
+      - Metrics: api/repositories/metrics.md
+      - Availability: api/repositories/availability.md
+      - Entities: api/repositories/entities.md
     - Workspaces: api/workspaces.md
     - Channels: api/channels.md
     - Subscriptions: api/subscriptions.md

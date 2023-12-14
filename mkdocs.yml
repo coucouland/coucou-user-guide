@@ -37,7 +37,12 @@ nav:
       - Availability: api/repositories/availability.md
       - Entities: api/repositories/entities.md
     - Workspaces: api/workspaces.md
-    - Channels: api/channels.md
+    - Channels:
+      - Overview: api/channels/index.md
+      - Email: api/channels/email.md
+      - Websub: api/channels/websub.md
+      - Webhooks: api/channels/webhooks.md
+      - Chat: api/channels/chat.md
     - Subscriptions: api/subscriptions.md
     - Filters: api/filters.md
     - Templates: api/templates.md

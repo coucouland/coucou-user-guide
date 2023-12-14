@@ -25,3 +25,12 @@ TBD.
 #### Deletion
 
 TBD.
+
+#### Other
+
+Non-CRUD operations also apply to channels as follows.
+
+    POST https://api.coucal.net/v1/channels/poll     # poll supported channels for content updates
+    {
+        "channels": ["imap"]
+    }

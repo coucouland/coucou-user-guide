@@ -6,5 +6,9 @@
     {
         "concept": "https://ical4j.org/extensions/concept/note/NOTE",
         "summary": "Meeting finished early due to not reaching a quorum",
-        "related-to": "123456"
+        "related-to": {
+            "reltype": "parent",
+            "value": "uid",
+            "uid": "123456"
+        }
     }

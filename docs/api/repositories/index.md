@@ -42,11 +42,4 @@ TBD.
 
 Non-CRUD operations also apply to repositories and content as follows.
 
-    POST https://api.coucal.net/v1/repositories/1/events/2/publish     # publish content to participants via channels
-    {
-        "channel": "smtp"
-    }
-
-    GET https://api.coucal.net/v1/repositories/1/events/export     # export entire event list of a repository
-
     POST https://api.coucal.net/v1/repositories/1/issues/import     # import issues from a supported data format

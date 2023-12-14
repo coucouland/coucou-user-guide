@@ -6,3 +6,9 @@
     {
       "concept": "https://ical4j.org/issue-types/RISK",
     }
+
+#### Other
+
+Non-CRUD operations also apply to repositories and content as follows.
+
+    POST https://api.coucal.net/v1/repositories/1/issues/import     # import issues from a supported data format

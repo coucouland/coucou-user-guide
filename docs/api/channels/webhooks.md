@@ -14,4 +14,9 @@ includes:
 
 ## Ingress
 
-TBD.
+Ingress Webhooks provide support for automated content updates based on events in external tools.
+
+For example, you may use JIRA to manage issues but would like to organize a peer review once a task is completed. You
+can use ingress Webhooks to detect when an issue is completed and create or update a review agenda automatically.
+
+Ingress activities define how to respond to different content types for Webhook integrations.  

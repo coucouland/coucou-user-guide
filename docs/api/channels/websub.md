@@ -13,3 +13,11 @@ Publishing content changes via a Websub channel requires the channel to include 
 ## Ingress
 
 Consuming content from a Websub channel requires one or more subscriptions to Hub topics.
+
+### Supported Content
+
+A Websub channel is used primarily to publish content in one direction. As such the use-case is limited to iTIP method
+related to publishing only:
+
+* iCalendar iTIP created externally (e.g. `PUBLISH`, `ADD`, `CANCEL`) - used to
+create/update content

@@ -1,5 +1,3 @@
-## Overview
-
 A Channel is an asynchronous delivery mechanism used to transport content into and out of a Workspace. To use the email
 analogy again, a Channel would be the SMTP/IMAP/POP server used to deliver messages to/from email addresses. However,
 as Coucal does not have senders or recipients of content, a Channel is responsible for publishing and consuming (or

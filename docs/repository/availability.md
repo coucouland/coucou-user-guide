@@ -1,0 +1,3 @@
+# Coucal Repository - Availability
+
+TBD.

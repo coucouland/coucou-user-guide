@@ -1,5 +1,3 @@
-## Overview
-
 The Repository is an abstraction for the underlying persistence layer. It is intended to be simple enough to support
 a wide variety of implementations, from relational to object stores, and everything between.
 

@@ -1,0 +1,3 @@
+# Coucal Repository - Entities
+
+TBD.

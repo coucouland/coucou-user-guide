@@ -20,7 +20,16 @@ extra:
 nav:
   - Overview:
     - Introduction: index.md
-    - Repository: repository.md
+    - Repository:
+      - Overview: repository/index.md
+      - Events: repository/events.md
+      - Actions: repository/actions.md
+      - Issues: repository/issues.md
+      - Requests: repository/requests.md
+      - Notes: repository/notes.md
+      - Metrics: repository/metrics.md
+      - Availability: repository/availability.md
+      - Entities: repository/entities.md
     - Workspace: workspace.md
     - Channel:
       - Overview: channel/index.md

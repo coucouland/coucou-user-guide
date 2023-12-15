@@ -4,6 +4,8 @@ Chat applications provide instant messaging capabilities for communicating with 
 (e.g. ChatOps/ChatBots). This channel supports integration with Chat applications to publish and/or consume
 compatible content.
 
+## When to use Chat
+
 This channel type is unique in that it can publish content on-demand, via chat requests. For example, you could
 enable querying for availability times via chat request in order to determine the best time to schedule a team
 meeting.

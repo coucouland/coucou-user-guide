@@ -3,6 +3,11 @@
 Webhooks are an established pattern for publishing content directly to a consuming endpoint of a target application.
 With Webhooks the content must be provided in a format compatible with the Webhook endpoint.
 
+## When to use Webhooks
+
+Webhooks channels are suited to direct integration with other applications where guaranteed delivery is required.
+Webhooks can also provide greater security through trust relationships with source/target endpoints.
+
 ## Egress
 
 Publishing content changes via a Webhook channel requires the channel to include a target webhook configuration. This 

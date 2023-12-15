@@ -22,7 +22,12 @@ nav:
     - Introduction: index.md
     - Repository: repository.md
     - Workspace: workspace.md
-    - Channel: channel.md
+    - Channel:
+      - Overview: channel/index.md
+      - Email: channel/email.md
+      - Websub: channel/websub.md
+      - Webhooks: channel/webhooks.md
+      - Chat: channel/chat.md
     - Subscription: subscription.md
   - API:
     - Overview: api/index.md
@@ -39,10 +44,6 @@ nav:
     - Workspaces: api/workspaces.md
     - Channels:
       - Overview: api/channels/index.md
-      - Email: api/channels/email.md
-      - Websub: api/channels/websub.md
-      - Webhooks: api/channels/webhooks.md
-      - Chat: api/channels/chat.md
     - Subscriptions: api/subscriptions.md
     - Filters: api/filters.md
     - Templates: api/templates.md

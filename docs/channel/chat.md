@@ -10,6 +10,8 @@ This channel type is unique in that it can publish content on-demand, via chat r
 enable querying for availability times via chat request in order to determine the best time to schedule a team
 meeting.
 
+✅ Chat provides the more support for interactivity than any other channel  
+
 ## Egress
 
 Publishing content changes via a Chat channel requires the channel to include a service configuration. This includes:

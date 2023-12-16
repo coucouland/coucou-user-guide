@@ -4,8 +4,9 @@ An Email channel supports sending and receiving content via Email transports (i.
 
 ## When to use Email
 
-Email channels are best suited for publishing directly to Workspace members and other closed distribution lists. They
-provide support for the iCalendar iTIP protocol used to schedule events between participants.
+Email channels are best suited for publishing directly to Workspace members and other closed distribution lists.
+
+✅ Email provides support for the iCalendar iTIP protocol used to schedule events between participants.
 
 ## Egress
 

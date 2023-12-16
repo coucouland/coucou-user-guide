@@ -9,7 +9,7 @@ Websub channels are good for publishing content to an unknown list of subscriber
 externally via the Websub Hub). This can be a good option for notifying other applications of changes to content
 without a need for guaranteed delivery.
 
-Websub does not rely on polling for ingress and so can be more responsive than email. 
+✅ Websub does not rely on polling for ingress and so can be more responsive than email. 
 
 ## Egress
 

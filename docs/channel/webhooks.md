@@ -6,7 +6,8 @@ With Webhooks the content must be provided in a format compatible with the Webho
 ## When to use Webhooks
 
 Webhooks channels are suited to direct integration with other applications where guaranteed delivery is required.
-Webhooks can also provide greater security through trust relationships with source/target endpoints.
+
+✅ Webhooks can provide greater security through trust relationships with source/target endpoints.
 
 ## Egress
 

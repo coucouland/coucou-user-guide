@@ -54,9 +54,10 @@ nav:
     - Channels:
       - Overview: api/channels/index.md
     - Subscriptions: api/subscriptions.md
-    - Websub: api/websub.md
     - Filters: api/filters.md
     - Templates: api/templates.md
+    - Websub: api/websub.md
+    - Webhooks: api/webhooks.md
 #    - Features: features.md
 #    - Design: design.md
 #    - First Steps: first-steps.md

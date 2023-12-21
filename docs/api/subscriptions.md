@@ -7,6 +7,9 @@ The subscriptions API is used to managed subscriptions to external content provi
 To create new subscription you MUST include the external content URL as well as the Websub Hub. Note that the
 content URL does not need to be resolvable, as it is used as a registered topic in the specified hub.
 
+When a subscription is created, Coucal will call the provided Hub to make a subscription request. The status
+of the subscription will reflect whether the subscription was successful, is active, etc.
+
     POST https://api.coucal.net/v1/subscriptions             # create a new subscription
     {
         "name": "Watch 1234",
@@ -19,6 +22,8 @@ content URL does not need to be resolvable, as it is used as a registered topic 
 #### Retrieval
 
     GET https://api.coucal.net/v1/subscriptions             # list all subscriptions
+
+    GET https://api.coucal.net/v1/subscriptions/1234        # get subscription details for subscprion with uid = 1234
 
 
 #### Update

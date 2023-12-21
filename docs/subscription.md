@@ -1,21 +1,16 @@
 ## Overview
 
-A Subscription defines the delivery rules for content published via a Channel. Once again to use the email analogy,
-Subscriptions are like the contact list, where you may find the address of well-known collaborators. But a Subscription
-also includes rules about the content that is published, and how or where to deliver it.
+A Subscription tracks an external source of content and rules defining how such content should be ingested.
 
-A Subscription SHOULD support the follow features:
-
-* Define one or more recipient addresses for published content.
-* Define rules to match published content that will trigger delivery to recipients.
-
-A Subscription cannot be used to arbitrarily add eternal subscribers without their consent. External subscribers
-may only be added via an Invitation process flow.
+For example, a public event may include links to a Websub hub providing event updates. Using a subscription you may
+register as a subscriber with the published hub, and indicate content updates should be saved to a "public"
+repository in the workspace.
 
 ## Invitation
 
-To provide temporary access to subscribe to otherwise private channels, an Invitation may be
-sent to one or more recipients. An Invitation allows access to a Channel for designated recipients
-until the specified expiry date.
+To provide temporary access to subscribe to workspace content, an Invitation may be sent to one or more recipients.
+An Invitation allows access to subscribe to a Channel for designated recipients until the specified expiry date.
 
-Invitations may also be sent for public Channels, when you want to include external subscribers.
+For example, you may create a new public event that you then want to share with a mailing list. An Invitation can
+be used to send the event with encapsulated subscriber information that can then be used to subscribe to content
+via the published Websub Hub.

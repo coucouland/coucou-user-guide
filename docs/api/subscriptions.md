@@ -1,15 +1,19 @@
 # Coucal API - Subscriptions
 
-Subscriptions allow an external party to "watch" content for any changes and be notified accordingly. Specifically,
-this functionality allows anyone to track content without being explicitly included in the content participants.
+The subscriptions API is used to managed subscriptions to external content providers.
 
 #### Creation
+
+To create new subscription you MUST include the external content URL as well as the Websub Hub. Note that the
+content URL does not need to be resolvable, as it is used as a registered topic in the specified hub.
 
     POST https://api.coucal.net/v1/subscriptions             # create a new subscription
     {
         "name": "Watch 1234",
-        "sourceUid": "1234",
-        "targetUri": "mailto:phillip@example.com"
+        "topicUrl": "https://coucou.land/1234",
+        "hub": "https://hub.coucou.land",
+        "targetRepo": "abcd-1234-0123-fdge",
+        "leaseDuration": 36000
     }
 
 #### Retrieval
@@ -22,5 +26,9 @@ this functionality allows anyone to track content without being explicitly inclu
 TBD.
 
 #### Deletion
+
+TBD.
+
+#### Other
 
 TBD.

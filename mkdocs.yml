@@ -58,6 +58,7 @@ nav:
     - Templates: api/templates.md
     - Websub: api/websub.md
     - Webhooks: api/webhooks.md
+    - Chat: api/chat.md
 #    - Features: features.md
 #    - Design: design.md
 #    - First Steps: first-steps.md

@@ -53,12 +53,12 @@ nav:
     - Workspaces: api/workspaces.md
     - Channels:
       - Overview: api/channels/index.md
+      - Websub: api/channels/websub.md
+      - Webhooks: api/channels/webhooks.md
+      - Chat: api/channels/chat.md
     - Subscriptions: api/subscriptions.md
     - Filters: api/filters.md
     - Templates: api/templates.md
-    - Websub: api/websub.md
-    - Webhooks: api/webhooks.md
-    - Chat: api/chat.md
 #    - Features: features.md
 #    - Design: design.md
 #    - First Steps: first-steps.md

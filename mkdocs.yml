@@ -54,6 +54,7 @@ nav:
     - Channels:
       - Overview: api/channels/index.md
       - Websub: api/channels/websub.md
+      - Webmention: api/channels/webmention.md
       - Webhooks: api/channels/webhooks.md
       - Chat: api/channels/chat.md
     - Subscriptions: api/subscriptions.md

@@ -35,6 +35,7 @@ nav:
       - Overview: channel/index.md
       - Email: channel/email.md
       - Websub: channel/websub.md
+      - Webmention: channel/webmention.md
       - Webhooks: channel/webhooks.md
       - Chat: channel/chat.md
     - Subscription: subscription.md

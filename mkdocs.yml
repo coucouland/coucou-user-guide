@@ -20,6 +20,11 @@ extra:
 nav:
   - Overview:
     - Introduction: index.md
+    - Examples:
+        - Overview: examples/index.md
+        - Service Desk: examples/service-desk.md
+        - Issue Tracker: examples/issue-tracker.md
+        - Project Management: examples/project-management.md
     - Repository:
       - Overview: repository/index.md
       - Events: repository/events.md

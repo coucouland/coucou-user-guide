@@ -1,35 +1,28 @@
 erDiagram
     WORKSPACE 1 to 1+ REPOSITORY: contains
-    WORKSPACE 1 to 1+ CHANNEL: contains
+    WORKSPACE 1 to 0+ CHANNEL: contains
+    WORKSPACE 1 to 0+ SUBSCRIPTION: contains
+    WORKSPACE 1 to 1+ ROLE: contains
     WORKSPACE {
         string name
     }
     REPOSITORY {
         string type
     }
-    CHANNEL 0+ to 0+ REPOSITORY: notifies
-    CHANNEL 1 to 0+ SUBSCRIPTION: has
-    CHANNEL 1 to 0+ INVITATION: has
+    CHANNEL 0+ to 0+ REPOSITORY: updates
     CHANNEL {
         string type
     }
-    SUBSCRIPTION
+    SUBSCRIPTION 0+ to 0+ REPOSITORY: updates
     SUBSCRIPTION {
-        string[] subscribers
-        string filter
+        string source
+        duration expiry
     }
-    INVITATION
-    INVITATION {
-        string[] recipients
-        date expiresOn
-    }
-    USER one or zero to 1 WORKSPACE: has
+    USER one or zero to 1 ROLE: has
     USER {
         string email
         string name
     }
-    TEAM one or zero to 1 WORKSPACE: has
-    TEAM one or zero to 1+ USER: contains
-    TEAM {
+    ROLE {
         string name
     }

@@ -22,9 +22,10 @@ nav:
     - Introduction: index.md
     - Examples:
         - Overview: examples/index.md
-        - Service Desk: examples/service-desk.md
         - Issue Tracker: examples/issue-tracker.md
         - Project Management: examples/project-management.md
+        - Service Catalog: examples/service-catalog.md
+        - Service Desk: examples/service-desk.md
     - Repository:
       - Overview: repository/index.md
       - Events: repository/events.md
@@ -36,6 +37,7 @@ nav:
       - Availability: repository/availability.md
       - Entities: repository/entities.md
     - Workspace: workspace.md
+    - Activities: activities.md
     - Channel:
       - Overview: channel/index.md
       - Email: channel/email.md
@@ -44,8 +46,16 @@ nav:
       - Webhooks: channel/webhooks.md
       - Chat: channel/chat.md
     - Subscription: subscription.md
-  - API:
+  - API Reference:
     - Overview: api/index.md
+    - Channels:
+        - Overview: api/channels/index.md
+        - Websub: api/channels/websub.md
+        - Webmention: api/channels/webmention.md
+        - Webhooks: api/channels/webhooks.md
+        - Chat: api/channels/chat.md
+    - Filters: api/filters.md
+    - Permissions: api/permissions.md
     - Repositories:
       - Overview: api/repositories/index.md
       - Events: api/repositories/events.md
@@ -56,16 +66,9 @@ nav:
       - Metrics: api/repositories/metrics.md
       - Availability: api/repositories/availability.md
       - Entities: api/repositories/entities.md
-    - Workspaces: api/workspaces.md
-    - Channels:
-      - Overview: api/channels/index.md
-      - Websub: api/channels/websub.md
-      - Webmention: api/channels/webmention.md
-      - Webhooks: api/channels/webhooks.md
-      - Chat: api/channels/chat.md
+    - Roles: api/roles.md
     - Subscriptions: api/subscriptions.md
-    - Filters: api/filters.md
-    - Templates: api/templates.md
+    - Workspaces: api/workspaces.md
 #    - Features: features.md
 #    - Design: design.md
 #    - First Steps: first-steps.md

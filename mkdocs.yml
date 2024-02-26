@@ -7,12 +7,12 @@ theme:
   features:
     - content.code.copy
 
-repo_url: https://github.com/coucouland/coucal-user-guide
-repo_name: coucouland/coucal
+repo_url: https://github.com/nodelogicau/coucal-user-guide
+repo_name: nodelogicau/coucal
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/coucouland
+      link: https://github.com/nodelogicau
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/benfortuna
     - icon: fontawesome/brands/twitter
@@ -20,32 +20,42 @@ extra:
 nav:
   - Overview:
     - Introduction: index.md
+    - Interoperability:
+        - Overview: interoperability/index.md
+        - Channel:
+            - Overview: channel/index.md
+            - Email: channel/email.md
+            - Websub: channel/websub.md
+            - Webmention: channel/webmention.md
+            - Webhooks: channel/webhooks.md
+            - Chat: channel/chat.md
+        - Subscription: subscription.md
+    - Collaboration:
+        - Overview: collaboration/index.md
+        - Repository:
+            - Overview: repository/index.md
+            - Events: repository/events.md
+            - Actions: repository/actions.md
+            - Issues: repository/issues.md
+            - Requests: repository/requests.md
+            - Notes: repository/notes.md
+            - Metrics: repository/metrics.md
+            - Availability: repository/availability.md
+            - Entities: repository/entities.md
+        - Workspace: workspace.md
+    - Workflow:
+        - Overview: workflow/index.md
+        - Activities: activities.md
+    - Architecture:
+        - Overview: architecture/index.md
     - Examples:
         - Overview: examples/index.md
         - Issue Tracker: examples/issue-tracker.md
         - Project Management: examples/project-management.md
         - Service Catalog: examples/service-catalog.md
         - Service Desk: examples/service-desk.md
-    - Repository:
-      - Overview: repository/index.md
-      - Events: repository/events.md
-      - Actions: repository/actions.md
-      - Issues: repository/issues.md
-      - Requests: repository/requests.md
-      - Notes: repository/notes.md
-      - Metrics: repository/metrics.md
-      - Availability: repository/availability.md
-      - Entities: repository/entities.md
-    - Workspace: workspace.md
-    - Activities: activities.md
-    - Channel:
-      - Overview: channel/index.md
-      - Email: channel/email.md
-      - Websub: channel/websub.md
-      - Webmention: channel/webmention.md
-      - Webhooks: channel/webhooks.md
-      - Chat: channel/chat.md
-    - Subscription: subscription.md
+  - CLI Reference:
+      - Overview: cli/index.md
   - API Reference:
     - Overview: api/index.md
     - Channels:

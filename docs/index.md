@@ -8,24 +8,26 @@ diverse applications through open standards.
 
 ### 1. Interoperability
 
-Coucal's core strength lies in its commitment to interoperability. By adhering to open standards, Coucal ensures that
-applications from various domains can effortlessly communicate and share data, fostering a cohesive and connected
-workflow environment.
+Coucal's core strength lies in its commitment to [interoperability](interoperability/index.md). By adhering to open
+standards, Coucal ensures that applications from various domains can effortlessly communicate and share data,
+fostering a cohesive and connected workflow environment.
 
 ### 2. Collaboration Hub
 
-Experience a centralized hub for collaboration where teams can seamlessly work together, regardless of the applications
-they use. Coucal brings people, processes, and tools together, enhancing productivity and communication.
+Experience a centralized hub for [collaboration](collaboration/index.md) where teams can seamlessly work together,
+regardless of the applications they use. Coucal brings people, processes, and tools together, enhancing productivity
+and communication.
 
 ### 3. Workflow Automation
 
-Streamline your workflows with Coucal's powerful automation capabilities. Design, customize, and automate workflows
-to eliminate repetitive tasks, reduce errors, and increase efficiency across your organization.
+Streamline your [workflows](workflow/index.md) with Coucal's powerful automation capabilities. Design, customize, and
+automate workflows to eliminate repetitive tasks, reduce errors, and increase efficiency across your organization.
 
 ### 4. Open Architecture
 
-Coucal is built on an open architecture, promoting extensibility and customization. Developers can easily integrate
-new applications, plugins, and modules, expanding the platform's capabilities to meet specific business requirements.
+Coucal is built on an [open architecture](architecture/index.md), promoting extensibility and customization. Developers
+can easily integrate new applications, plugins, and modules, expanding the platform's capabilities to meet specific
+business requirements.
 
 ### 5. User-Friendly Interface
 

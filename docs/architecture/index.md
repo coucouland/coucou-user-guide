@@ -27,13 +27,13 @@ and scale dynamically as needed, allowing your organization to operate efficient
 
 ### 4. Command Line Interface (CLI)
 
-Empower administrators and power users with Coucal's intuitive Command Line Interface. Perform tasks, configure
+Empower administrators and power users with Coucal's intuitive [Command Line Interface](../cli/index.md). Perform tasks, configure
 settings, and manage workflows directly from the command line, providing a streamlined and efficient way to interact
 with the platform.
 
 ### 5. Extensive API Support
 
-Coucal extends its reach through a comprehensive Application Programming Interface (API). Integrate Coucal seamlessly
+Coucal extends its reach through a comprehensive [Application Programming Interface](../api/index.md) (API). Integrate Coucal seamlessly
 with other applications, automate processes, and leverage its functionalities programmatically to create a cohesive
 and interconnected ecosystem.
 

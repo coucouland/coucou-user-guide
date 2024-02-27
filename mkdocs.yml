@@ -33,7 +33,9 @@ nav:
             - Availability: repository/availability.md
             - Entities: repository/entities.md
         - Template: template.md
-        - Workspace: workspace.md
+        - Workspace:
+          - Overview: workspace/index.md
+          - Roles: workspace/role.md
     - Interoperability:
         - Overview: interoperability/index.md
         - Channel:

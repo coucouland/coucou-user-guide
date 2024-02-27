@@ -20,16 +20,6 @@ extra:
 nav:
   - Overview:
     - Introduction: index.md
-    - Interoperability:
-        - Overview: interoperability/index.md
-        - Channel:
-            - Overview: channel/index.md
-            - Email: channel/email.md
-            - Websub: channel/websub.md
-            - Webmention: channel/webmention.md
-            - Webhooks: channel/webhooks.md
-            - Chat: channel/chat.md
-        - Subscription: subscription.md
     - Collaboration:
         - Overview: collaboration/index.md
         - Repository:
@@ -42,12 +32,26 @@ nav:
             - Metrics: repository/metrics.md
             - Availability: repository/availability.md
             - Entities: repository/entities.md
+        - Template: template.md
         - Workspace: workspace.md
+    - Interoperability:
+        - Overview: interoperability/index.md
+        - Channel:
+            - Overview: channel/index.md
+            - Email: channel/email.md
+            - Websub: channel/websub.md
+            - Webmention: channel/webmention.md
+            - Webhooks: channel/webhooks.md
+            - Chat: channel/chat.md
+        - Subscription: subscription.md
     - Workflow:
         - Overview: workflow/index.md
-        - Activities: activities.md
+        - Commands: workflow/commands.md
+        - Triggers: workflow/triggers.md
     - Architecture:
         - Overview: architecture/index.md
+        - Containerization: architecture/containerization.md
+        - Serverless: architecture/serverless.md
     - Examples:
         - Overview: examples/index.md
         - Issue Tracker: examples/issue-tracker.md

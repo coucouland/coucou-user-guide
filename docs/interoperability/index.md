@@ -41,9 +41,9 @@ Boost productivity as teams effortlessly share data, calendars, and contacts wit
 
 ### 3. Versatility and Customization
 
-Coucal's use of open standards doesn't just provide interoperability — it offers versatility. Leverage Coucal's open
-architecture to integrate custom applications, plugins, and modules, tailoring the platform to your organization's
-unique needs.
+Coucal's use of open standards doesn't just provide interoperability — it offers versatility. Leverage Coucal's
+[open architecture](../architecture/index.md) to integrate custom applications, plugins, and modules, tailoring
+the platform to your organization's unique needs.
 
 ### 4. Future-Proof Collaboration
 

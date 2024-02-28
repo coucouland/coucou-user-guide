@@ -58,7 +58,7 @@ to assist you with any questions or issues you may encounter along the way.
 
 ### 4. Community
 
-Join the Coucal community to connect with other users, share experiences, and stay updated on the latest developments.
+Join the [Coucal community](https://github.com/orgs/nodelogicau/discussions) to connect with other users, share experiences, and stay updated on the latest developments.
 Collaborate with like-minded individuals to unlock the full potential of Coucal in diverse use cases.
 
 Elevate your collaboration and workflow management with Coucal – where interoperability meets efficiency. Start your

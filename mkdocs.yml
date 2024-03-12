@@ -57,6 +57,7 @@ nav:
     - Examples:
         - Overview: examples/index.md
         - Issue Tracker: examples/issue-tracker.md
+        - Time Tracker: examples/time-tracker.md
         - Project Management: examples/project-management.md
         - Service Catalog: examples/service-catalog.md
         - Service Desk: examples/service-desk.md

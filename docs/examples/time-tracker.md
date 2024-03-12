@@ -18,65 +18,55 @@ or API interfaces.
 
 1. Create a new workspace:
 
- ```json
- $ coucal workspaces add timetracker <<EOF
- {
-     "fn": "Time Tracker for A-Team"
- }
- EOF
- ```
+       $ coucal workspaces add timetracker <<EOF
+       {
+           "fn": "Time Tracker for A-Team"
+       }
+       EOF
 
 2. Create the time tracking roles:
 
- ```json
- $ coucal roles add timetracker <<EOF
- {
-     "fn": "Time Entry Submitter",
-     "role": "coucal:permission:action:create"
- }
- EOF
-
- $ coucal roles add timetracker <<EOF
- {
-     "fn": "Time Entry Approver",
-     "role": "coucal:permission:action:status:update"
- }
- EOF
- ```
+       $ coucal roles add timetracker <<EOF
+       {
+           "fn": "Time Entry Submitter",
+           "role": "coucal:permission:action:create"
+       }
+       EOF
+   
+       $ coucal roles add timetracker <<EOF
+       {
+           "fn": "Time Entry Approver",
+           "role": "coucal:permission:action:status:update"
+       }
+       EOF
 
 3. Create the time tracking repository:
 
- ```json
- $ coucal repositories add timetracker <<EOF
- {
-     "fn": "Time Tracker repository for A-Team"
- }
- EOF
- ```
+       $ coucal repositories add timetracker <<EOF
+       {
+           "fn": "Time Tracker repository for A-Team"
+       }
+       EOF
 
 4. Create approval workflow:
 
    When a timesheet is submitted, create a new approval action.
 
- ```json
- $ coucal workflows add timetracker <<EOF
- {
-     "fn": "Create approval for time submission",
-     "context": "/timetracker/1",
-     "trigger": "coucal:message:action:timesheet:submitted",
-     "intent": "coucal:intent:action:approval:create"
- }
- ```
+       $ coucal workflows add timetracker <<EOF
+       {
+           "fn": "Create approval for time submission",
+           "context": "/timetracker/1",
+           "trigger": "coucal:message:action:timesheet:submitted",
+           "intent": "coucal:intent:action:approval:create"
+       }
 
-    When a timesheet approval is completed, update the status on the associated timesheet.
+   When a timesheet approval is completed, update the status on the associated timesheet.
 
- ```json
- $ coucal workflows add timetracker <<EOF
- {
-     "fn": "Update status for time submission",
-     "context": "/timetracker/1",
-     "trigger": "coucal:message:action:approval:closed",
-     "intent": "coucal:intent:action:timesheet:status:update"
- }
- EOF
- ```
+       $ coucal workflows add timetracker <<EOF
+       {
+           "fn": "Update status for time submission",
+           "context": "/timetracker/1",
+           "trigger": "coucal:message:action:approval:closed",
+           "intent": "coucal:intent:action:timesheet:status:update"
+       }
+       EOF

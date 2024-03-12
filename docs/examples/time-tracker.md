@@ -14,7 +14,7 @@ Time tracking with Coucal could incorporate the following:
 The following steps can be used to configure a time tracker in Coucal using either command line
 or API interfaces.
 
-### Using the command line
+### Configure via the command line
 
 1. Create a new workspace:
 
@@ -56,7 +56,7 @@ or API interfaces.
        {
            "fn": "Create approval for time submission",
            "context": "/timetracker/1",
-           "trigger": "coucal:message:action:timesheet:submitted",
+           "trigger": "coucal:message:action:timesheet:status:submitted",
            "intent": "coucal:intent:action:approval:create"
        }
 
@@ -66,7 +66,9 @@ or API interfaces.
        {
            "fn": "Update status for time submission",
            "context": "/timetracker/1",
-           "trigger": "coucal:message:action:approval:closed",
+           "trigger": "coucal:message:action:approval:status:closed",
            "intent": "coucal:intent:action:timesheet:status:update"
        }
        EOF
+
+### 

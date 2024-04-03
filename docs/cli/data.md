@@ -47,7 +47,14 @@ Examples:
 
 ## Read
 
-TBD.
+The read command can be used to export data from Coucal to a variety of formats.
+
+Examples:
+
+    $ coucal read /user1/1/events  # output all events in repository "1" as a single iCalendar object 
+
+    $ coucal read /user1/1/events/2  # output a single event in repository "1" as an iCalendar object
+
 
 ## Write
 

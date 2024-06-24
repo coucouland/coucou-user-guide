@@ -25,3 +25,6 @@ Journaling and annotations
 Coucal is not intended to be a repository of (non-temporal) data itself, but rather to provide
 links to the data residing in other tools and platforms. Coucal is primarily focused on temporal
 and location-sensitive data such as events, annotations, availability, actions, etc.
+
+Coucal is not a direct replacement for any other tool. It works WITH your existing toolchain to
+provide greater visibility and tracking of your existing business processes.

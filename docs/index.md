@@ -1,10 +1,17 @@
-# Coucal: Collaborative Workflow Management with Interoperability
+# Coucal
 
-Welcome to Coucal, the cutting-edge platform designed to revolutionize collaboration and workflow management. Coucal
-stands out by placing a strong emphasis on interoperability, enabling seamless communication and integration between
+A platform for management of linked object graphs using open standards.
+
+## Overview
+
+Coucal is built on open data formats such as iCalendar and vCard to support the creation of integrated workflows
+and process management tooling.
+
+Coucal places a strong emphasis on interoperability, enabling seamless communication and integration between
 diverse applications through open standards.
 
-## Key Features:
+
+## Key Features
 
 ### 1. Interoperability
 
@@ -38,6 +45,7 @@ simplicity and efficiency, teams can quickly adapt to the platform and start col
 
 Security is a top priority for Coucal. Benefit from robust security features that protect your data and ensure
 compliance with industry standards and regulations.
+
 
 ## Getting Started:
 

@@ -19,7 +19,7 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/micronode
 nav:
-  - Overview:
+  - Home:
     - Introduction: index.md
     - Collaboration:
         - Overview: collaboration/index.md

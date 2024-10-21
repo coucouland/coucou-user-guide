@@ -6,7 +6,8 @@ theme:
   logo: images/logo-48.png
   features:
     - content.code.copy
-
+    - navigation.tabs
+    
 repo_url: https://github.com/nodelogicau/coucal-user-guide
 repo_name: nodelogicau/coucal
 extra:
